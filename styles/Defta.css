@@ -1,0 +1,37 @@
+.judulatas {
+    font-size: 48px;
+    color: #006c38;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.judulbawah {
+    font-size: 32px;
+    color: #006c38;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.balok {
+    color: #006c38;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+
+}
+
+.sub-judul {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 18px;
+}
+
+.penjelasan {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 18px;
+}
