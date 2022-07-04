@@ -1,7 +1,10 @@
+.body {
+    
+}
 .judulatas {
     font-size: 48px;
     color: #006c38;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -18,7 +21,6 @@
     margin-right: 300px;
     border-radius: 50px;
     margin-bottom: 100px;
-
 }
 
 .sub-judul {
@@ -34,4 +36,24 @@
     margin-right: 50px;
     color: black;
     font-size: 18px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    font-size: 60px;
+    margin: 100px;
+}
+
+#hal-2 {
+    display: none;
+}
+
+#hal-3 {
+    display: none;
 }
