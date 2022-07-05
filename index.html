@@ -7,14 +7,14 @@
     <title>header & footer</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/cc9032c2b9.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--nav start-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
       <div class="container-fluid">
         <!--nav img-->
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="./ASSETS/logo pk kecil.png" class="img-fluid" alt="" width="50%" height="auto" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,14 +30,14 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto me-5">
             <li class="nav-item">
-              <a class="nav-link" href="#">PROFIL</a>
+              <a class="nav-link fs-5" href="#">PROFIL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ANGGOTA</a>
+              <a class="nav-link fs-5" href="#">ANGGOTA</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle fs-5"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -58,15 +58,24 @@
     </nav>
     <!--nav end-->
     <!--main content-->
-    <h1>Hello World</h1>
+    <h1 class="text-center">Hello World</h1>
     <!--main content end-->
     <!-- Footer -->
-    <footer class="bg-light">
+    <footer class="bg-secondary d-flex flex-sm-row flex-column align-items-center justify-content-between p-3">
       <!-- Copyright -->
-      <div class="p-1 bg-dark text-white">
-        <h6 class="m-0">PERWAKILAN KELAS 5 2022</h6>
+      <div class="p-1 bg-secondary text-white mb-2 mb-sm-0">
+        <h6 class="m-0 text-center">
+          PERWAKILAN KELAS 5 <br class="d-sm-none d-flex" />
+          2022
+        </h6>
+      </div>
+      <div class="d-flex gap-3">
+        <a href="#"><i class="fs-1 fa fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fs-1 fa fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fs-1 fa fa-solid fa-envelope"></i></a>
       </div>
     </footer>
     <!-- Footer end -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
