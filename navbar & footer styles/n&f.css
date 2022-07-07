@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-.dropdown-menu {
-  transition: all 0.4s ease-in-out;
-}
-
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11403,4 +11399,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=n&f.css.map */
