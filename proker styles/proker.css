@@ -13,8 +13,7 @@
 }
 
 .balok {
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 700px;
   border-radius: 50px;
   margin-bottom: 100px;
 }
@@ -32,15 +31,10 @@
   font-size: 18px;
 }
 
-.btn-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-button {
-  font-size: 40px;
-  margin: 100px;
+.tombol {
+  font-size: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #hal-2 {
