@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+$theme-colors : (
+    "primary" : #006C38,
+) ;
+
+*{
+    margin : 0;
+    padding : 0;
+}
+h2,p,h6 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.page-ketua {
+    display: flex;
+    flex-direction: column;
+}
+
+.koordinator-umum {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.ketua-kordi-umum {
+    display: flex;
+    flex-direction: column;
+}
+.wakil-kordi-umum {
+    display: flex;
+    flex-direction: column;
+}
+
+.sekertaris {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.bendahara {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss" ;
