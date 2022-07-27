@@ -1,33 +1,4 @@
-@charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-.subjudul {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  margin-left: 10%;
-  margin-top: 4%;
-}
-.logo-pk{
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  height: auto;
-  left: 70%;
-  top: 8%;
-}
-.isi-judul {
-  font-family: 'Open Sans', sans-serif;
-  margin-left: 10%;
-}
-i {
-  font-family: 'Open Sans', sans-serif;
-  margin-left: 15%;
-}
-.teks-divisi {
-  margin-left: 5px;
-}
+
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
