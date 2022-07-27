@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--required meta tags-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--title-->
+    <title>header & footer</title>
+    <!--styles-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./navbar & footer styles/n&f.css" />
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/cc9032c2b9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--nav start-->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container-fluid">
+        <!--nav img-->
+        <a class="navbar-brand" href="#"><img src="./ASSETS/logo pk kecil.png" class="img-fluid" alt="" width="50%" height="auto" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--nav items-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#">PROFIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#">ANGGOTA</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PROKER
+              </a>
+              <!--nav dropdown-->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">ASPIRASI 5</a></li>
+                <li><a class="dropdown-item" href="#">PILKETOS</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--nav end-->
+    <!--main content-->
+    <h1 class="text-center">Hello World</h1>
+    <!--main content end-->
+    <!-- Footer -->
+    <footer class="bg-secondary d-flex flex-sm-row flex-column align-items-center justify-content-between p-3">
+      <!-- Copyright -->
+      <div class="p-1 bg-secondary text-white mb-2 mb-sm-0">
+        <h6 class="m-0 text-center">
+          PERWAKILAN KELAS 5 <br class="d-sm-none d-flex" />
+          2022
+        </h6>
+      </div>
+      <div class="d-flex gap-3">
+        <a href="#"><i class="fs-1 fa fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fs-1 fa fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fs-1 fa fa-solid fa-envelope"></i></a>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

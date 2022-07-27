@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$spacer: 1.5rem;
+$theme-colors: (
+  "primary": #006c38,
+  "secondary": #01341b,
+);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
