@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+$theme-colors : (
+    "text-success" : #01341b
+);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
