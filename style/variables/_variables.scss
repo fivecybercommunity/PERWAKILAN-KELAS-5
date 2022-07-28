@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap");
+
+$font_primary: "Montserrat", sans-serif;
+
+$theme-colors: (
+  "primary": #006c38,
+  "secondary": #01341b,
+  "text-success": #01341b,
+);
+$spacer: 1.5rem;
+@import "/node_modules/bootstrap/scss/bootstrap.scss";

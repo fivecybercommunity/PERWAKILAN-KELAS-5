@@ -1,0 +1,8 @@
+@use "../variables/variables";
+
+h2,
+p,
+h6,
+h3 {
+  font-family: $font_primary;
+}

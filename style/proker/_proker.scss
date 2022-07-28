@@ -1,0 +1,46 @@
+@use "../variables/variables";
+
+.judulatas {
+  font-size: 48px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: $font_primary;
+}
+.judulbawah {
+  font-size: 32px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.balok {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
+
+.sub-judul {
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.penjelasan {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.tombol {
+  font-size: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#hal-2 {
+  display: none;
+}
+
+#hal-3 {
+  display: none;
+}
