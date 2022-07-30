@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 h2, .h2,
 p,
 h6,
@@ -10,7 +11,7 @@ h3,
 }
 
 .utama {
-  background: rgba(0, 108, 56, 0.3) url("/ASSETS/Logo/Source - bg.png");
+  background: rgba(0, 108, 56, 0.3) url("../../ASSETS/Logo/Source - bg.png");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
@@ -87,6 +88,23 @@ footer .socmed a:hover {
   color: #e6e6e3 !important;
 }
 
+.proker-judul {
+  font-family: "Montserrat", sans-serif;
+}
+
+.proker-wrapper {
+  max-width: 700px !important;
+}
+.proker-wrapper h1, .proker-wrapper .h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.proker-wrapper p {
+  font-family: "Open Sans", sans-serif;
+}
+.proker-wrapper .proker-content {
+  max-width: 500px;
+}
+
 @media screen and (max-width: 768px) {
   .profile-pk-logo img {
     max-width: 300px;
@@ -129,10 +147,10 @@ footer .socmed a:hover {
   --bs-gray-900: #212529;
   --bs-primary: #006c38;
   --bs-secondary: #01341b;
-  --bs-text-success: #01341b;
+  --bs-border-primary: #01341b;
   --bs-primary-rgb: 0, 108, 56;
   --bs-secondary-rgb: 1, 52, 27;
-  --bs-text-success-rgb: 1, 52, 27;
+  --bs-border-primary-rgb: 1, 52, 27;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -3008,7 +3026,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #01341b;
 }
 
-.btn-text-success {
+.btn-border-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #01341b;
   --bs-btn-border-color: #01341b;
@@ -3059,7 +3077,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-text-success {
+.btn-outline-border-primary {
   --bs-btn-color: #01341b;
   --bs-btn-border-color: #01341b;
   --bs-btn-hover-color: #fff;
@@ -4633,12 +4651,12 @@ textarea.form-control-lg {
   color: #01190d;
 }
 
-.alert-text-success {
+.alert-border-primary {
   --bs-alert-color: #011f10;
   --bs-alert-bg: #ccd6d1;
   --bs-alert-border-color: #b3c2bb;
 }
-.alert-text-success .alert-link {
+.alert-border-primary .alert-link {
   color: #01190d;
 }
 
@@ -4970,15 +4988,15 @@ textarea.form-control-lg {
   border-color: #011f10;
 }
 
-.list-group-item-text-success {
+.list-group-item-border-primary {
   color: #011f10;
   background-color: #ccd6d1;
 }
-.list-group-item-text-success.list-group-item-action:hover, .list-group-item-text-success.list-group-item-action:focus {
+.list-group-item-border-primary.list-group-item-action:hover, .list-group-item-border-primary.list-group-item-action:focus {
   color: #011f10;
   background-color: #b8c1bc;
 }
-.list-group-item-text-success.list-group-item-action.active {
+.list-group-item-border-primary.list-group-item-action.active {
   color: #fff;
   background-color: #011f10;
   border-color: #011f10;
@@ -6550,7 +6568,7 @@ textarea.form-control-lg {
   background-color: RGBA(1, 52, 27, var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-text-success {
+.text-bg-border-primary {
   color: #fff !important;
   background-color: RGBA(1, 52, 27, var(--bs-bg-opacity, 1)) !important;
 }
@@ -6569,10 +6587,10 @@ textarea.form-control-lg {
   color: #012a16 !important;
 }
 
-.link-text-success {
+.link-border-primary {
   color: #01341b !important;
 }
-.link-text-success:hover, .link-text-success:focus {
+.link-border-primary:hover, .link-border-primary:focus {
   color: #012a16 !important;
 }
 
@@ -7020,9 +7038,9 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;
 }
 
-.border-text-success {
+.border-border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-text-success-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-border-primary-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-white {
@@ -7857,9 +7875,9 @@ textarea.form-control-lg {
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-text-success {
+.text-border-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-text-success-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-border-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-black {
@@ -7923,9 +7941,9 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-text-success {
+.bg-border-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-text-success-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-border-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
