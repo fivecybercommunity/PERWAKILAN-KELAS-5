@@ -1,7 +1,9 @@
 @use "./anggota/anggota";
 @use "./home/home";
+@use "./navfoot/navfoot";
 @use "./proker/proker";
 @use "./variables/variables";
+@use "./profile/profile";
 
 * {
   margin: 0;
@@ -13,5 +15,7 @@ $theme-colors: (
   "secondary": #01341b,
   "text-success": #01341b,
 );
+
 $spacer: 1.5rem;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

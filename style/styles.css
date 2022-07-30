@@ -14,7 +14,7 @@ h3,
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
-  height: 80vh;
+  height: 81vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -77,52 +77,21 @@ h3,
     font-size: 50px;
   }
 }
-.judulatas {
-  font-size: 48px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  font-family: "Montserrat", sans-serif;
+footer .socmed a {
+  color: white;
+}
+footer .socmed a i:hover {
+  color: #e6e6e3 !important;
+}
+footer .socmed a:hover {
+  color: #e6e6e3 !important;
 }
 
-.judulbawah {
-  font-size: 32px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+@media screen and (max-width: 768px) {
+  .profile-pk-logo img {
+    max-width: 300px;
+  }
 }
-
-.balok {
-  width: 700px;
-  border-radius: 50px;
-  margin-bottom: 100px;
-}
-
-.sub-judul {
-  font-weight: bold;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 18px;
-}
-
-.penjelasan {
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 18px;
-}
-
-.tombol {
-  font-size: 60px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-#hal-2 {
-  display: none;
-}
-
-#hal-3 {
-  display: none;
-}
-
 * {
   margin: 0;
   padding: 0;
