@@ -105,6 +105,11 @@ footer .socmed a:hover {
   max-width: 500px;
 }
 
+@media only screen and (max-width: 768px) {
+  .border-2 {
+    --bs-border-width: 0px !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .profile-pk-logo img {
     max-width: 300px;
