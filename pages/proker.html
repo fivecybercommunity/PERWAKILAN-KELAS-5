@@ -66,8 +66,20 @@
       <h1 class="text-center fw-bold text-primary">Program Kerja</h1>
       <h1 class="text-center fw-bold text-primary">Perwakilan Kelas 5</h1>
     </div>
+
+    <!--selection-->
+    <div class="d-flex justify-content-center mx-3 mx-md-0 mt-5">
+      <select class="content-selection form-select form-select-lg mx-2" aria-label=".form-select-lg example" id="content-selector" onchange="contentSwitch()">
+        <optgroup label="Pilih Program"></optgroup>
+        <option selected value="0">Program Kerja Pengawas</option>
+        <option value="1">Program Kerja Konseptor</option>
+        <option value="2">Program Kerja Lapangan</option>
+      </select>
+    </div>
+
+
     <!--proker pengawas-->
-    <div class="d-flex align-items-center justify-content-center">
+    <div class="d-flex align-items-center justify-content-center slide">
       <div
         class="proker-wrapper my-3 py-5 mx-md-5 mx-0 container border border-2 rounded-5 border-secondary d-flex align-items-center justify-content-center flex-column"
       >
@@ -97,7 +109,7 @@
     </div>
     <!--akhir pengawas-->
     <!--proker konseptor-->
-    <div class="d-flex align-items-center justify-content-center">
+    <div class="d-flex align-items-center justify-content-center slide">
       <div
         class="proker-wrapper my-3 py-5 mx-md-5 mx-0 container border border-2 rounded-5 border-secondary d-flex align-items-center justify-content-center flex-column"
       >
@@ -118,7 +130,7 @@
     </div>
     <!--akhir konseptor-->
     <!--proker lapangan-->
-    <div class="d-flex align-items-center justify-content-center">
+    <div class="d-flex align-items-center justify-content-center slide">
       <div
         class="proker-wrapper my-3 py-5 mx-md-5 mx-0 container border border-2 rounded-5 border-secondary d-flex align-items-center justify-content-center flex-column"
       >
@@ -168,5 +180,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="../scripts/proker.js"></script>
   </body>
 </html>
