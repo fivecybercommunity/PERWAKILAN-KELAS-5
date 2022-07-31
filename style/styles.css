@@ -78,6 +78,15 @@ h3,
     font-size: 50px;
   }
 }
+nav .navbar-brand img {
+  transition: box-shadow 0.3s;
+}
+nav .navbar-brand img:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.5);
+  border: 0px solid transparent;
+  border-radius: 1px;
+}
+
 footer .socmed a {
   color: white;
 }
